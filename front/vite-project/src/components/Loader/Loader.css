@@ -1,0 +1,22 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  margin: auto;
+}
+
+.loader {
+  width: 64px;
+  height: 64px;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

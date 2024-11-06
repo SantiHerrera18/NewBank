@@ -1,0 +1,38 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(24, 24, 73, 0.5), 45%, rgba(13, 13, 32, 0.5)),
+    url("https://i.pinimg.com/originals/89/0b/d5/890bd505a9782aaa483b93183d647a78.jpg");
+  background-position: right;
+}
+
+.header {
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.mainTitle {
+  font-size: 7em;
+  display: inline-block;
+  color: #276cd3;
+}
+
+.mainDescription {
+  color: #fff;
+  width: 50%;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.login {
+  color: #48e;
+}

@@ -1,0 +1,25 @@
+.background {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(23, 23, 51, 0.7) 45%,
+      rgb(45, 45, 129, 0.7) 100%
+    ),
+    url("https://img.freepik.com/foto-gratis/campo-estrellas-resplandecientes-ilumina-fondo-oscuro-galaxia-generado-ia_188544-9646.jpg");
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registerTitle {
+  font-size: 40px;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+.ebank {
+  font-size: 42px;
+  color: #59f;
+}

@@ -1,0 +1,53 @@
+.cardsHolder {
+  display: flex;
+  gap: 2em;
+  box-sizing: border-box;
+  justify-content: center;
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 10px;
+  flex-wrap: wrap;
+  max-width: 75%;
+  width: 70%;
+  min-width: 40%;
+}
+
+h2 {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.appointmentsTitle {
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  display: inline-block;
+  background-color: #48e4;
+  border-radius: 10px;
+  padding: 15px;
+  position: absolute;
+  width: 55vw;
+  left: 10px;
+}
+
+.appScreen {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  padding-right: 18px;
+  min-height: 60vh;
+  margin-top: 20px;
+}
+
+@media (max-width: 736px) {
+  .appScreen {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .appointmentsTitle {
+    display: none;
+  }
+}

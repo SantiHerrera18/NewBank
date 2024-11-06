@@ -1,0 +1,48 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  box-sizing: border-box;
+  min-height: 80vh;
+  gap: 0;
+}
+
+.info-bank,
+.bank-history {
+  width: 100%;
+  padding: 30px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bank-history {
+  align-items: end;
+  text-align: end;
+  box-shadow: 0 0 40px #000;
+}
+
+.info-bank {
+  background: linear-gradient(rgba(30, 30, 110, 0.8), rgba(14, 14, 59, 0.8)),
+    url("https://blogger.googleusercontent.com/img/a/AVvXsEiQzgy4Qu_XPsNRpuagORqaA7Q0tjb6CslYoFHO2cdLstcgX-7w8EEqt3UOaNiLjNTeXmUoGvGvMoa-MH_dWoHM5Jg6chpDNVZmv5mQq1uKDKy2PmdZbaSH0Kx6KfWjYTxKqJUnGrfqJGmYf84HrHCIDtvfkIVAogmU7abMEVCMGPRn-KODn6__yCV5Hw=w640-h426-rw");
+  background-size: cover;
+  color: #fff;
+}
+
+.info-bank h1,
+.bank-history h1 {
+  color: #70a7e8;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.info-bank p,
+.bank-history p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  width: 70%;
+  color: #fff;
+}

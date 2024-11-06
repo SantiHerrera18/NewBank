@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.appointmentCard {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #268;
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  box-shadow: 0 0 25px #000;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s;
+}
+
+.statusButton {
+  max-width: fit-content;
+  color: #fff;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  align-self: flex-end;
+  background-color: #4e8;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.statusButtonCancel {
+  color: #fff;
+  max-width: fit-content;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  align-self: flex-end;
+  background-color: #b44;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  cursor: no-drop;
+}
+
+.appointmentCard:hover {
+  box-shadow: 0 0 15px #48e;
+}
+
+.appInfo {
+  font-weight: lighter;
+  font-size: 16px;
+  color: #fff;
+}
